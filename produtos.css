@@ -1,17 +1,38 @@
+.mainzao{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.mainzin{
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 .sessionone{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
+    background-color: #d4e7f1;
 }
 
 .sessionone img{
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
 .sessionone img:hover{
     transition: 1s;
     transform: scale(1.1);
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
     border: 4px solid #b7d5e5;
 }
 
@@ -25,16 +46,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
+    background-color: #d4e7f1;
 }
 
 .sessiontwo img{
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
 .sessiontwo img:hover{
     transition: 1s;
     transform: scale(1.1);
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
     border: 4px solid #b7d5e5;
 }
 
@@ -48,16 +72,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
+    background-color: #d4e7f1;
 }
 
 .sessionthree img{
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
 .sessionthree img:hover{
     transition: 1s;
     transform: scale(1.1);
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
     border: 4px solid #b7d5e5;
 }
 

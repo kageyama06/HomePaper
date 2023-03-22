@@ -1,5 +1,4 @@
 *{
-    padding: 0px;
     margin: 20px;
 }
 
@@ -21,6 +20,7 @@ body{
     box-shadow: 20px;
     transform: scale(1.1);
     transition: 1s;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
 }
 
 header{
@@ -29,7 +29,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
-    box-shadow: 20px;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
 }
 
 .logo_e_lista{
@@ -53,7 +53,8 @@ header{
     font-size: 20px;
     color: black;
     text-decoration: none;
-    list-style:none
+    list-style:none;
+    text-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);;
 }
 
 .lista a:hover{
@@ -68,6 +69,7 @@ header{
 
 main{
     background-color: white;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
 }
 
 h1{
@@ -79,7 +81,7 @@ h1{
 .aaa{
     width:600px;
     height: 400px;
-    padding-left: 50px;
+    border: 4px solid #b7d5e5;
 }
 
 .sobre{
@@ -100,6 +102,7 @@ h1{
     flex-direction: row;
     justify-content: center;
 }
+
 
 
 
