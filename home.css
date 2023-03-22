@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 20px;
+}
+
+body{
+    background-color:#b7d5e5;
+}
+
+/* css menu */
+
+.logo{
+    padding: 0%;
+    margin: 0px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logo:hover{
+    box-shadow: 20px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: 20px;
+}
+
+.logo_e_lista{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    text-decoration: none;
+    list-style:none
+}
+
+.lista a{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    list-style:none
+}
+
+.lista a:hover{
+    color: #b7d5e5;
+    font-size: 30px;
+    transform: scale(1.1);
+    transition: 1s;
+    text-decoration:underline;
+}
+
+/* css main */
+
+main{
+    background-color: white;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-decoration:underline;
+}
+.aaa{
+    width:600px;
+    height: 400px;
+    padding-left: 50px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sobresobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.sobreimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
