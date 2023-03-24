@@ -2,6 +2,20 @@
     margin: 20px;
 }
 
+.mainzaozao{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.mainzinzin{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 body{
     background-color:#b7d5e5;
 }
@@ -11,7 +25,7 @@ body{
 .logo{
     padding: 0%;
     margin: 0px;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -19,7 +33,6 @@ body{
 .logo:hover{
     box-shadow: 20px;
     transform: scale(1.1);
-    transition: 1s;
     box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
 }
 
@@ -58,12 +71,13 @@ header{
 }
 
 .lista a:hover{
-    color: #b7d5e5;
+    color: cornflowerblue;
     font-size: 30px;
     transform: scale(1.1);
-    transition: 1s;
+    font-style: bold;
     text-decoration:underline;
 }
+
 
 /* css main */
 
@@ -77,11 +91,6 @@ h1{
     flex-direction: row;
     justify-content:center;
     text-decoration:underline;
-}
-.aaa{
-    width:600px;
-    height: 400px;
-    border: 4px solid #b7d5e5;
 }
 
 .sobre{
@@ -102,6 +111,72 @@ h1{
     flex-direction: row;
     justify-content: center;
 }
+
+.aaa{
+    width:500px;
+    height: 400px;
+    border: 4px solid #b7d5e5;
+}
+
+/* css footerzin */
+
+.rodape{
+    background-color: cornflowerblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
+    height: 400px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.faceb{
+    width: 160px;
+    height: 120px;
+}
+
+.instag, .you{
+    width: 130px;
+    height: 120px;
+}
+
+.face, .insta, .youtube{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.p1{
+    margin-left: 35px;
+    padding-left: 35px;
+}
+
+.p2{
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.p3{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+
 
 
 

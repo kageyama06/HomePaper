@@ -30,10 +30,10 @@
 }
 
 .sessionone img:hover{
-    transition: 1s;
     transform: scale(1.1);
     box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
-    border: 4px solid #b7d5e5;
+    border: 4px solid cornflowerblue;
+    
 }
 
 .sessionone p{
@@ -56,10 +56,9 @@
 }
 
 .sessiontwo img:hover{
-    transition: 1s;
     transform: scale(1.1);
     box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
-    border: 4px solid #b7d5e5;
+    border: 4px solid cornflowerblue;
 }
 
 .sessiontwo p{
@@ -82,10 +81,9 @@
 }
 
 .sessionthree img:hover{
-    transition: 1s;
     transform: scale(1.1);
     box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
-    border: 4px solid #b7d5e5;
+    border: 4px solid cornflowerblue;
 }
 
 .sessionthree p{
