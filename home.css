@@ -36,6 +36,13 @@ body{
     box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
 }
 
+.carrinho{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-right: 40px;
+    padding-right: 40px;
+}
+
 header{
     background-color: white;
     display: flex;
@@ -109,7 +116,65 @@ h1{
 .sobreimage{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.sobreimage, .carrosel{
+    display:flex;
+    height: 200px;
+    width: 1000px;
+}
+
+.carrosel img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: slides;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: running;
+}
+
+@keyframes slides{
+    0%{
+        left: 0px;
+    }
+    10%{
+        left: 0px;
+    }
+    20%{
+        left: -120px;
+    }
+    30%{
+        left: -120px;
+    }
+    40%{
+        left: -240px;
+    }
+    50%{
+        left: -240;
+    }
+    60%{
+        left: -360;
+    }
+    70%{
+        left: -360;
+    }
+    80%{
+        left: -480;
+    }
+    90%{
+        left: -480;
+    }
+    99.99%{
+        left: -480;
+    }
+    100%{
+        left: 0px;
+    }
 }
 
 .aaa{
